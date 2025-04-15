@@ -1,3 +1,4 @@
+import 'package:delivery/ui/_core/app_theme.dart';
 import 'package:delivery/ui/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: SplashScreen());
+    return MaterialApp(theme: AppTheme.appTheme, home: SplashScreen());
   }
 }
