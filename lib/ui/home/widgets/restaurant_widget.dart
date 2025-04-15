@@ -8,11 +8,17 @@ class RestaurantWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      spacing: 12.0,
       children: [
-        Image.asset('/assets/${restaurant.imagePath}'),
+        Image.asset('assets/${restaurant.imagePath}', width: 64),
+
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(restaurant.name),
+            Text(
+              restaurant.name,
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
             Row(
               children: List.generate(restaurant.stars.toInt(), (index) {
                 return Image.asset('assets/others/star.png', width: 16.0);
