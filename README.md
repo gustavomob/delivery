@@ -22,4 +22,5 @@
 
 ## Aplicativo 📱
 
-  [Gravação de tela de 15-04-2025 18:01:45.webm](https://github.com/user-attachments/assets/8d6ed974-92cd-4b6a-9ff1-2b8e2281383e)
+
+[Gravação de tela de 16-04-2025 19:29:37.webm](https://github.com/user-attachments/assets/52618799-8650-4af3-bbd2-353da366f80f)
