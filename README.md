@@ -1,10 +1,21 @@
 # Delivery :hamburger:
 
-- Aplicativo de Delivery
+- Aplicativo de Delivery para dispositivos Android e IOS
 
 ## Stacks :robot:
 
 - Flutter
+- Provider
+- Badges
+
+## Features :mag
+
+- Pesquisar tipo de prato
+- Mostrar os restaurantes bem avaliados
+- Detalhar cada prato com preço e descrição
+- Adicionar o pedido ao carrinho de compras
+- Mostrar a página de checkout com a forma de pagamento, endereço de entrega e valor total
+- Confirmar pagamento do pedido
 
 ## Aplicativo 📱
 
