@@ -6,6 +6,7 @@ import 'package:delivery/ui/home/widgets/category_widget.dart';
 import 'package:delivery/ui/home/widgets/restaurant_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:delivery/ui/_core/widgets/drawer_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,7 +15,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     RestaurantData restaurantData = Provider.of<RestaurantData>(context);
     return Scaffold(
-      drawer: Drawer(),
+      drawer: const DrawerWidget(),
       appBar: getAppBar(context: context),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 20.0),
@@ -23,9 +24,19 @@ class HomeScreen extends StatelessWidget {
             spacing: 32.0,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(child: Image.asset("assets/logo.png", width: 147)),
+              Center(child: Image.asset("assets/logo.png", width: 200)),
               Text("Boas Vindas!"),
-              TextFormField(),
+              TextFormField(
+                autocorrect: false,
+                enableSuggestions: false,
+                keyboardType: TextInputType.text,
+                autofillHints: null,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.fastfood, color: Colors.grey),
+                  hintText: 'Digite sua comida',
+                  labelText: 'O que você vai comer hoje?',
+                ),
+              ),
               Text("Escolha por categoria"),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,

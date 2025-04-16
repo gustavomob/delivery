@@ -55,12 +55,6 @@ class RestaurantScreen extends StatelessWidget {
                         },
                         icon: Icon(Icons.add, color: Colors.green),
                       ),
-                      IconButton(
-                        onPressed: () {
-                          context.read<BagProvider>().removeDishes(dish);
-                        },
-                        icon: Icon(Icons.remove, color: Colors.red),
-                      ),
                     ],
                   ),
                 );

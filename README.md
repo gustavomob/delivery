@@ -7,6 +7,9 @@
 - [Flutter](https://docs.flutter.dev)
 - [Provider](https://pub.dev/packages/provider)
 - [Badges](https://pub.dev/packages/badges)
+- [SVG](https://pub.dev/packages/flutter_svg)
+- [Font Awesome](https://pub.dev/packages/font_awesome_flutter)
+- [URL LAUNCHER](https://pub.dev/packages/url_launcher)
 
 ## Features :mag:
 
