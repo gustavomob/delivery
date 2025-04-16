@@ -1,14 +1,14 @@
-# Delivery :hamburger:
+# Delivery :fork_and_knife:
 
 - Aplicativo de Delivery para dispositivos Android e IOS
 
 ## Stacks :robot:
 
-- Flutter
-- Provider
-- Badges
+- [Flutter](https://docs.flutter.dev)
+- [Provider](https://pub.dev/packages/provider)
+- [Badges](https://pub.dev/packages/badges)
 
-## Features :mag
+## Features :mag:
 
 - Pesquisar tipo de prato
 - Mostrar os restaurantes bem avaliados
