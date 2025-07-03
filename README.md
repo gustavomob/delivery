@@ -48,9 +48,10 @@ lib/
 
 ## 📱 Demonstração
 
+> 💡 *Gravação de tela do app em funcionamento.*
+
 https://github.com/user-attachments/assets/52618799-8650-4af3-bbd2-353da366f80f
 
-> 💡 *Gravação de tela do app em funcionamento.*
 ---
 
 ## 🚀 Como rodar o projeto
