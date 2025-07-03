@@ -51,9 +51,6 @@ lib/
 https://github.com/user-attachments/assets/52618799-8650-4af3-bbd2-353da366f80f
 
 > 💡 *Gravação de tela do app em funcionamento.*
-
-[Gravação de tela de 16-04-2025 19:29:37.webm](https://github.com/user-attachments/assets/52618799-8650-4af3-bbd2-353da366f80f)
-
 ---
 
 ## 🚀 Como rodar o projeto
